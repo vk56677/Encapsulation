@@ -16,7 +16,7 @@ class Student {
         this.name = n;
     }
 
-    // Setter ~ Set result with validation (0-100 only)
+    // Setter ~ Set result with validation (0-100 only),
     public void setResult(int r) {
         if (r >= 0 && r <= 100) {
             result = r;
